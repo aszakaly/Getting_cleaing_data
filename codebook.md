@@ -12,26 +12,26 @@ The run_analysis.R script requires the plyr package to be installed.
 To avoid issues the installation command is included on the script, take this into consideration before executing.
 
 ##Process of data cleaning
-*1. The script reads all required datasets
-*2. Merging of training and test datasets (resulting in 3 data frames)
-*3. Extraction of only the measurements on the mean and standard deviation for each measurement type
-*4. Labelling activity names (instead of numeric code and adding the subject ids
-*5. Writing the tidy dataset
-*6. Creating the second dataset of aggregated averages
-*7. Writing the secon dataset
+* 1. The script reads all required datasets
+* 2. Merging of training and test datasets (resulting in 3 data frames)
+* 3. Extraction of only the measurements on the mean and standard deviation for each measurement type
+* 4. Labelling activity names (instead of numeric code and adding the subject ids
+* 5. Writing the tidy dataset
+* 6. Creating the second dataset of aggregated averages
+* 7. Writing the secon dataset
 
 ##Outputs
-*merged_clean_data.txt
-*averages.txt
+* merged_clean_data.txt
+* averages.txt
 
 ##Activity labels
 The following activity labels can occur in the file:
-*WALKING
-*WALKINGUPSTAIRS
-*WALKINGDOWNSTAIRS
-*SITTING
-*STANDING
-*LAYING
+* WALKING
+* WALKINGUPSTAIRS
+* WALKINGDOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 ##Names of measures
 * subject_id
